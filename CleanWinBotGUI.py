@@ -1,11 +1,20 @@
 from cgitb import text
-from cleanWinBot import RemoveFileFrom
+from cleanWinBot import RemoveFileFrom,getPathFromJson
 from tkinter import *
 from pathlib import Path
 
+pathDict = getPathFromJson('setting.json')
+
+
+
+
 def clicked():
-    removepath = Path(r"C:\Windows\Temp")
-    for res in enumerate(RemoveFileFrom(removepath)):
+    for index,jsnPath in enumerate(pathDict):
+        removepath = Path(jsnPath['pathloc'])
+        print(removepath)
+        list.insert(0,removepath)
+        for res in enumerate(RemoveFileFrom(removepath)):
+            print(res)
         list.insert(0,res)
 
 

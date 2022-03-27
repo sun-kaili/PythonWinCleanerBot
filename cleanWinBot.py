@@ -1,5 +1,6 @@
 
 from asyncio import exceptions
+import json
 
 
 def RemoveFileFrom(path):
@@ -19,4 +20,19 @@ def RemoveFileFrom(path):
     # for res in enumerate (dFiles):
     #     print(res)
     return dFiles 
-   
+
+
+def getPathFromJson(jsonpath):
+
+  with open(jsonpath, 'r') as f:
+    settingData = f.read()
+    #print(settingData)
+    pathDict = json.loads(settingData)
+    return pathDict
+    
+
+# def addPathToJson():
+#     pathDict = {"pathName": "C:\Users\kaili\AppData\Local\Temp"}
+
+#     with open('setting.txt', 'w') as json_file:
+#         json.dump(pathDict, json_file)
