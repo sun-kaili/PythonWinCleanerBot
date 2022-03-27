@@ -1,10 +1,10 @@
 from cleanWinBot import RemoveFileFrom,getPathFromJson
 from tkinter import *
 from pathlib import Path
-
-pathDict = getPathFromJson('setting.json')
+window = Tk()
 
 def clicked():
+    pathDict = getPathFromJson('setting.json')
     for index,jsnPath in enumerate(pathDict):
         removepath = Path(jsnPath['pathloc'])
         #print(removepath)
@@ -14,7 +14,7 @@ def clicked():
             list.insert(0,res)
 
 
-window = Tk()
+
 window.title("Welcome Windows Cleaner")
 window.geometry('500x400')
 btn = Button(window, text="Clean Your PC",command=clicked)
