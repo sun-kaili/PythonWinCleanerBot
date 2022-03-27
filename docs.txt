@@ -1,4 +1,0 @@
-install before using
-for gui
-pip install PyAutoGUI
-pip install pywin32
