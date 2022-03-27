@@ -11,7 +11,7 @@ def RemoveFileFrom(path):
         try:
             if f.is_file():
                 f.unlink()
-                dFiles.insert(0,f.name + "Removed")
+                dFiles.insert(0,f.name + " Removed")
                 
         except:
                 dFiles.insert(0,"Can't Remove "+f.name)
