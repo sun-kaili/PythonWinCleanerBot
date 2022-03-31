@@ -1,5 +1,5 @@
-('C:\\Users\\kaili\\Desktop\\Python '
- 'Projects\\WinCleaningBot\\build\\CleanWinBotGUI\\PYZ-00.pyz',
+('C:\\Users\\kaili\\Desktop\\Python Projects\\App for '
+ 'automation\\WinCleaningBot\\build\\CleanWinBotGUI\\PYZ-00.pyz',
  [('os',
    'C:\\Users\\kaili\\AppData\\Local\\Programs\\Python\\Python310\\lib\\os.py',
    'PYMODULE'),
@@ -660,11 +660,11 @@
   ('_py_abc',
    'C:\\Users\\kaili\\AppData\\Local\\Programs\\Python\\Python310\\lib\\_py_abc.py',
    'PYMODULE'),
-  ('tracemalloc',
-   'C:\\Users\\kaili\\AppData\\Local\\Programs\\Python\\Python310\\lib\\tracemalloc.py',
-   'PYMODULE'),
   ('stringprep',
    'C:\\Users\\kaili\\AppData\\Local\\Programs\\Python\\Python310\\lib\\stringprep.py',
+   'PYMODULE'),
+  ('tracemalloc',
+   'C:\\Users\\kaili\\AppData\\Local\\Programs\\Python\\Python310\\lib\\tracemalloc.py',
    'PYMODULE'),
   ('pathlib',
    'C:\\Users\\kaili\\AppData\\Local\\Programs\\Python\\Python310\\lib\\pathlib.py',
@@ -676,7 +676,8 @@
    'C:\\Users\\kaili\\AppData\\Local\\Programs\\Python\\Python310\\lib\\tkinter\\constants.py',
    'PYMODULE'),
   ('cleanWinBot',
-   'C:\\Users\\kaili\\Desktop\\Python Projects\\WinCleaningBot\\cleanWinBot.py',
+   'C:\\Users\\kaili\\Desktop\\Python Projects\\App for '
+   'automation\\WinCleaningBot\\cleanWinBot.py',
    'PYMODULE'),
   ('json',
    'C:\\Users\\kaili\\AppData\\Local\\Programs\\Python\\Python310\\lib\\json\\__init__.py',

@@ -1,11 +1,8 @@
-
-from asyncio import exceptions
 import json
 
 
 def RemoveFileFrom(path):
-    path_list = path.glob("*")
-
+    path_list = path.glob("*")#return all file paths that match a specific pattern 
     dFiles=["Deleted Files"]
     for f in path_list:
         try:
@@ -15,7 +12,6 @@ def RemoveFileFrom(path):
                 
         except:
                 dFiles.insert(0,"Can't Remove "+f.name)
-
 
     # for res in enumerate (dFiles):
     #     print(res)

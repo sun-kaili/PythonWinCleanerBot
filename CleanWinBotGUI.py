@@ -6,10 +6,10 @@ window = Tk()
 def clicked():
     pathDict = getPathFromJson('setting.json')
     for index,jsnPath in enumerate(pathDict):
-        removepath = Path(jsnPath['pathloc'])
-        #print(removepath)
-        list.insert(0,removepath)
-        for res in enumerate(RemoveFileFrom(removepath)):
+        FilesToRemovePath = Path(jsnPath['pathloc'])
+        #print(removepath)#check the list of path 
+        list.insert(0,FilesToRemovePath)
+        for res in enumerate(RemoveFileFrom(FilesToRemovePath)):
             #print(res)
             list.insert(0,res)
 
