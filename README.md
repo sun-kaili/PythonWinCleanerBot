@@ -10,7 +10,7 @@ on process - create a module that will create shortcut for the python
 <h1 align="center">Hi 👋, I'm kaili</h1>
 <h3 align="center">A passionate Python developer from Philippines</h3>
 
-- 🔭 I’m currently working on [PythonWinCleanerBot](https://github.com/ylnekcam/PythonWinCleanerBot)
+- 🔭 I’m currently working on Learning Python(https://github.com/ylnekcam/PythonWinCleanerBot)
 
 - 🌱 I’m currently learning **Python Automation, ML, and AI**
 
